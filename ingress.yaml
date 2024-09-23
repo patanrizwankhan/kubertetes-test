@@ -7,10 +7,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - domain.com
+    - demo-riz.probuy.me
     secretName: webapp-tls
   rules:
-  - host: doamin.com
+  - host: demo-riz.probuy.me
     http:
       paths:
       - path: /
