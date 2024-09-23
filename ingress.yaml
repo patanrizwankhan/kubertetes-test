@@ -2,9 +2,14 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: webapp-ingress
+  namespace: default
   annotations:
-    cert-manager.io/cluster-issuer: "letsencrypt"
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    acme.cert-manager.io/http01-ingress-class: "nginx"
 spec:
+  ingressClassName: nginx
   tls:
   - hosts:
     - demo-riz.probuy.me
@@ -18,5 +23,3 @@ spec:
         backend:
           service:
             name: webapp-service
-            port:
-              number: 80
