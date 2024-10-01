@@ -1,0 +1,29 @@
+# Stage 1: Base image for running the application
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 5150
+ENV ASPNETCORE_URLS=http://+:5150
+# Optional: Add a user with proper permissions if needed
+# RUN adduser --disabled-password --home /app app
+# USER app
+
+# Stage 2: Build and restore dependencies
+FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ARG configuration=Release
+WORKDIR /src
+COPY ["WebApplication1/WebApplication1.csproj", "WebApplication1/"]
+RUN dotnet restore "WebApplication1/WebApplication1.csproj" --no-cache
+COPY . .
+WORKDIR "/src/WebApplication1"
+RUN dotnet build "WebApplication1.csproj" -c $configuration -o /app/build
+
+# Stage 3: Publish the application
+FROM build AS publish
+ARG configuration=Release
+RUN dotnet publish "WebApplication1.csproj" -c $configuration -o /app/publish /p:UseAppHost=false
+
+# Stage 4: Final image for running the app
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "/app/WebApplication1.dll"]
