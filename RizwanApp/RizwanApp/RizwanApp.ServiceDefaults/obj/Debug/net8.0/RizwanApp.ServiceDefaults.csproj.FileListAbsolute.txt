@@ -1,0 +1,12 @@
+F:\source\demos\RizwanApp\RizwanApp.ServiceDefaults\bin\Debug\net8.0\RizwanApp.ServiceDefaults.deps.json
+F:\source\demos\RizwanApp\RizwanApp.ServiceDefaults\bin\Debug\net8.0\RizwanApp.ServiceDefaults.dll
+F:\source\demos\RizwanApp\RizwanApp.ServiceDefaults\bin\Debug\net8.0\RizwanApp.ServiceDefaults.pdb
+F:\source\demos\RizwanApp\RizwanApp.ServiceDefaults\obj\Debug\net8.0\RizwanApp.ServiceDefaults.csproj.AssemblyReference.cache
+F:\source\demos\RizwanApp\RizwanApp.ServiceDefaults\obj\Debug\net8.0\RizwanApp.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+F:\source\demos\RizwanApp\RizwanApp.ServiceDefaults\obj\Debug\net8.0\RizwanApp.ServiceDefaults.AssemblyInfoInputs.cache
+F:\source\demos\RizwanApp\RizwanApp.ServiceDefaults\obj\Debug\net8.0\RizwanApp.ServiceDefaults.AssemblyInfo.cs
+F:\source\demos\RizwanApp\RizwanApp.ServiceDefaults\obj\Debug\net8.0\RizwanApp.ServiceDefaults.csproj.CoreCompileInputs.cache
+F:\source\demos\RizwanApp\RizwanApp.ServiceDefaults\obj\Debug\net8.0\RizwanApp.ServiceDefaults.dll
+F:\source\demos\RizwanApp\RizwanApp.ServiceDefaults\obj\Debug\net8.0\refint\RizwanApp.ServiceDefaults.dll
+F:\source\demos\RizwanApp\RizwanApp.ServiceDefaults\obj\Debug\net8.0\RizwanApp.ServiceDefaults.pdb
+F:\source\demos\RizwanApp\RizwanApp.ServiceDefaults\obj\Debug\net8.0\ref\RizwanApp.ServiceDefaults.dll

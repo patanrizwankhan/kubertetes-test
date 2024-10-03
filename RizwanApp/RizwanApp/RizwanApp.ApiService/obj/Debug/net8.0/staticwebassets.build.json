@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "HlB71KYOZaD/+7GaVeApgZ2lgp+jG2hzZHrTzr9J5hw=",
+  "Source": "RizwanApp.ApiService",
+  "BasePath": "_content/RizwanApp.ApiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

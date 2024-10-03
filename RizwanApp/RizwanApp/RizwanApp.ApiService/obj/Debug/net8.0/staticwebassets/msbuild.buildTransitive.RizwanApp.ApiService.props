@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\RizwanApp.ApiService.props" />
+</Project>

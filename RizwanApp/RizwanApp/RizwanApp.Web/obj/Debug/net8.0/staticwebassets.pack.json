@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\source\\demos\\RizwanApp\\RizwanApp.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\RizwanApp.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RizwanApp.Web.28cbqtwmkt.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\source\\demos\\RizwanApp\\RizwanApp.Web\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "F:\\source\\demos\\RizwanApp\\RizwanApp.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\source\\demos\\RizwanApp\\RizwanApp.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\source\\demos\\RizwanApp\\RizwanApp.Web\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RizwanApp.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RizwanApp.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RizwanApp.Web.props",
+      "PackagePath": "build\\RizwanApp.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RizwanApp.Web.props",
+      "PackagePath": "buildMultiTargeting\\RizwanApp.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RizwanApp.Web.props",
+      "PackagePath": "buildTransitive\\RizwanApp.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
