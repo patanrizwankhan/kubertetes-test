@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "Service1.Controllers.Service2Controller",
+    "Method": "Get",
+    "RelativePath": "Service2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Service1.WeatherForecast, Service1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetService2"
+  }
+]
